@@ -16,9 +16,14 @@ public class Animal {
     public Animal(){
         
     }
-    public Animal (String nome){
-        
+
+    public Animal(String nomedoanimal) {
+        this.nomedoanimal = nomedoanimal;
     }
+    public void caminhar(){
+        System.out.println("caminha,caminha");
+    }
+    
 
     /**
      * @return the raca
@@ -47,6 +52,12 @@ public class Animal {
     public void setNomedoanimal(String nomedoanimal) {
         this.nomedoanimal = nomedoanimal;
     }
+
+    @Override
+    public String toString() {
+        return "Animal{" + "raca=" + raca + ", nomedoanimal=" + nomedoanimal + '}';
+    }
+    
     
           
     
