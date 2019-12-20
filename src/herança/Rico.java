@@ -31,6 +31,6 @@ public class Rico extends Pessoa{
     
     
     public void fazcompras(){
-        
+        this.dinheiro -= dinheiro;
     }
 } 
