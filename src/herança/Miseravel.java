@@ -10,6 +10,10 @@ package herança;
  * @author Vagabundo
  */
 public class Miseravel extends Pessoa{
+
+    Miseravel() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     public void mendigar(){
         
     }

@@ -36,6 +36,13 @@ public class Main {
         System.out.println("o que fazes?");
         p1.trabalha();
         
+        System.out.println("Dados do miseravel");
+        Miseravel m1 = new Miseravel();
+        System.out.println("nome");
+        m1.setNome(sc.next());
+        System.out.println("idade");
+        m1.setIdade(sc.nextInt());
+        m1.mendigar();
         
         
         
