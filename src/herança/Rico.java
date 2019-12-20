@@ -10,5 +10,15 @@ package herança;
  * @author Vagabundo
  */
 public class Rico extends Pessoa{
+    private double dinheiro;
+
+    public Rico(double dinheiro) {
+        this.dinheiro += dinheiro;
+    }
     
-}
+    
+    
+    public void fazcompras(){
+        
+    }
+} 
