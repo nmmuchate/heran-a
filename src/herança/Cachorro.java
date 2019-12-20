@@ -9,6 +9,11 @@ package herança;
  *
  * @author Vagabundo
  */
-public class Cachorro {
+public class Cachorro extends Animal{
+    
+    
+    public void latir(){
+        System.out.println("auauauauauau");
+    }
     
 }
