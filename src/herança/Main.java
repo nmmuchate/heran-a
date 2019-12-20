@@ -27,6 +27,16 @@ public class Main {
         System.out.println("Compras");
         r1.fazcompras();
         
+        System.out.println("Dados do trabalhador ");
+        Pobre p1 = new Pobre();
+        System.out.println("Nome");
+        p1.setNome(sc.next());
+        System.out.println("idade");
+        p1.setIdade(sc.nextInt());
+        System.out.println("o que fazes?");
+        p1.trabalha();
+        
+        
         
         
         
