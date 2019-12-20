@@ -16,6 +16,19 @@ public class Herança {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Cachorro p1 = new Cachorro();
+        Gato p2 = new Gato();
+        p1.setNomedoanimal("horcha");
+        p1.setRaca("pitbull");
+        p2.setNomedoanimal("hassan");
+        p2.setRaca("preto e branco");
+        p1.caminhar();
+        p2.caminhar();
+        p2.latir();
+        p1.latir();
+        System.out.println(p1);
+        System.out.println(p2);
+        
     }
     
 }
