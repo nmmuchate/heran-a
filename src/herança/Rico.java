@@ -12,8 +12,20 @@ package herança;
 public class Rico extends Pessoa{
     private double dinheiro;
 
+    public Rico() {
+    }
+    
+
     public Rico(double dinheiro) {
         this.dinheiro += dinheiro;
+    }
+
+    public double getDinheiro() {
+        return dinheiro;
+    }
+
+    public void setDinheiro(double dinheiro) {
+        this.dinheiro = dinheiro;
     }
     
     
